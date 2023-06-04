@@ -1,0 +1,40 @@
+{
+  "version": "2.0",
+  "lang": "en",
+  "name": "AlphaKit",
+  "scope": "/",
+  "display": "fullscreen",
+  "start_url": "index.html",
+  "short_name": "AlphaKit",
+  "description": "illusiv3 powered App Builder",
+  "orientation": "portrait",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "generated": "true",
+  "icons": [
+    {
+      "src": "c:/Users/dougb/OneDrive/Documents/alpha-turbo/apps/mobile/code/app/icons/manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "c:/Users/dougb/OneDrive/Documents/alpha-turbo/apps/mobile/code/app/icons/manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "c:/Users/dougb/OneDrive/Documents/alpha-turbo/apps/mobile/code/app/icons/manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "c:/Users/dougb/OneDrive/Documents/alpha-turbo/apps/mobile/code/app/icons/manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

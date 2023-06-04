@@ -1,0 +1,53 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "meta-viewport": "off",
+    "no-inline-styles": "off",
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
+    ],
+    "axe/aria": "off",
+    "axe/forms": [
+      "default",
+      {
+        "select-name": "off"
+      }
+    ],
+    "axe/parsing": [
+      "default",
+      {
+        "duplicate-id-aria": "off"
+      }
+    ],
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "appearance",
+          "backdrop-filter",
+          "-webkit-overflow-scrolling",
+          "user-select",
+          "position: sticky",
+          "print-color-adjust",
+          "-webkit-text-size-adjust"
+        ]
+      }
+    ]
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not ios_saf <= 14.8",
+    "not safari <= 14.1",
+    "not ios_saf <= 16.4",
+    "not safari <= 16.4",
+    "not and_ff <= 110",
+    "not edge <= 112",
+    "not firefox <= 112"
+  ]
+}
